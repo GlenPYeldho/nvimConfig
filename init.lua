@@ -1,3 +1,3 @@
 require("hermit")
+--color scheme 
 vim.cmd.colorscheme 'nordic'
-print("Hello")

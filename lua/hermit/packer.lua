@@ -16,7 +16,8 @@ return require('packer').startup(function(use)
 	use 'AlexvZyl/nordic.nvim'
 	--Treesitter
 	use('nvim-treesitter/nvim-treesitter', {run =':TSUpdate'})
-
+	--harpooon
+	use('ThePrimeagen/harpoon')
 end)
 
 
